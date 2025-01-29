@@ -1,0 +1,6 @@
+C:\Users\elian\source\repos\ProyectoFinanzas\Conexión\bin\Debug\Conexión.dll
+C:\Users\elian\source\repos\ProyectoFinanzas\Conexión\bin\Debug\Conexión.pdb
+C:\Users\elian\source\repos\ProyectoFinanzas\Conexión\obj\Debug\Conexión.csproj.AssemblyReference.cache
+C:\Users\elian\source\repos\ProyectoFinanzas\Conexión\obj\Debug\Conexión.csproj.CoreCompileInputs.cache
+C:\Users\elian\source\repos\ProyectoFinanzas\Conexión\obj\Debug\Conexión.dll
+C:\Users\elian\source\repos\ProyectoFinanzas\Conexión\obj\Debug\Conexión.pdb

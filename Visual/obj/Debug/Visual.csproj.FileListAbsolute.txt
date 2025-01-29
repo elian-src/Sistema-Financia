@@ -1,0 +1,10 @@
+C:\Users\elian\source\repos\ProyectoFinanzas\Visual\bin\Debug\Visual.dll
+C:\Users\elian\source\repos\ProyectoFinanzas\Visual\bin\Debug\Visual.pdb
+C:\Users\elian\source\repos\ProyectoFinanzas\Visual\obj\Debug\Visual.csproj.AssemblyReference.cache
+C:\Users\elian\source\repos\ProyectoFinanzas\Visual\obj\Debug\Visual.RegistroCliente.resources
+C:\Users\elian\source\repos\ProyectoFinanzas\Visual\obj\Debug\Visual.csproj.GenerateResource.cache
+C:\Users\elian\source\repos\ProyectoFinanzas\Visual\obj\Debug\Visual.csproj.CoreCompileInputs.cache
+C:\Users\elian\source\repos\ProyectoFinanzas\Visual\obj\Debug\Visual.dll
+C:\Users\elian\source\repos\ProyectoFinanzas\Visual\obj\Debug\Visual.pdb
+C:\Users\elian\source\repos\ProyectoFinanzas\Visual\obj\Debug\Visual.Login.resources
+C:\Users\elian\source\repos\ProyectoFinanzas\Visual\obj\Debug\Visual.RegistroBancario.resources

@@ -1,0 +1,157 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\elian\\source\\repos\\ProyectoFinanzas\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5A83432D-6A46-46BB-B2C5-CAF093AD5B66}|Visual\\Visual.csproj|C:\\Users\\elian\\source\\repos\\ProyectoFinanzas\\Visual\\Principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A83432D-6A46-46BB-B2C5-CAF093AD5B66}|Visual\\Visual.csproj|solutionrelative:Visual\\Principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A83432D-6A46-46BB-B2C5-CAF093AD5B66}|Visual\\Visual.csproj|C:\\Users\\elian\\source\\repos\\ProyectoFinanzas\\visual\\principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5A83432D-6A46-46BB-B2C5-CAF093AD5B66}|Visual\\Visual.csproj|solutionrelative:visual\\principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A83432D-6A46-46BB-B2C5-CAF093AD5B66}|Visual\\Visual.csproj|C:\\Users\\elian\\source\\repos\\ProyectoFinanzas\\Visual\\Class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A83432D-6A46-46BB-B2C5-CAF093AD5B66}|Visual\\Visual.csproj|solutionrelative:Visual\\Class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A83432D-6A46-46BB-B2C5-CAF093AD5B66}|Visual\\Visual.csproj|C:\\Users\\elian\\source\\repos\\ProyectoFinanzas\\Visual\\RegistroCliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A83432D-6A46-46BB-B2C5-CAF093AD5B66}|Visual\\Visual.csproj|solutionrelative:Visual\\RegistroCliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB0BD8A0-CA07-428C-B992-08BE506F8381}|Logica\\Logica.csproj|C:\\Users\\elian\\source\\repos\\ProyectoFinanzas\\Logica\\Add.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB0BD8A0-CA07-428C-B992-08BE506F8381}|Logica\\Logica.csproj|solutionrelative:Logica\\Add.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{933DF0E9-3C0A-4F27-99D4-FB285F59CA18}|Conexi\u00F3n\\Conexi\u00F3n.csproj|c:\\users\\elian\\source\\repos\\proyectofinanzas\\conexi\u00F3n\\conexi\u00F3n.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{933DF0E9-3C0A-4F27-99D4-FB285F59CA18}|Conexi\u00F3n\\Conexi\u00F3n.csproj|solutionrelative:conexi\u00F3n\\conexi\u00F3n.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A83432D-6A46-46BB-B2C5-CAF093AD5B66}|Visual\\Visual.csproj|C:\\Users\\elian\\source\\repos\\ProyectoFinanzas\\visual\\registrocliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5A83432D-6A46-46BB-B2C5-CAF093AD5B66}|Visual\\Visual.csproj|solutionrelative:visual\\registrocliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A83432D-6A46-46BB-B2C5-CAF093AD5B66}|Visual\\Visual.csproj|C:\\Users\\elian\\source\\repos\\ProyectoFinanzas\\visual\\registrobancario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5A83432D-6A46-46BB-B2C5-CAF093AD5B66}|Visual\\Visual.csproj|solutionrelative:visual\\registrobancario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Add.cs",
+              "DocumentMoniker": "C:\\Users\\elian\\source\\repos\\ProyectoFinanzas\\Logica\\Add.cs",
+              "RelativeDocumentMoniker": "Logica\\Add.cs",
+              "ToolTip": "C:\\Users\\elian\\source\\repos\\ProyectoFinanzas\\Logica\\Add.cs",
+              "RelativeToolTip": "Logica\\Add.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAASwAwAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T12:30:49.721Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RegistroCliente.cs",
+              "DocumentMoniker": "C:\\Users\\elian\\source\\repos\\ProyectoFinanzas\\Visual\\RegistroCliente.cs",
+              "RelativeDocumentMoniker": "Visual\\RegistroCliente.cs",
+              "ToolTip": "C:\\Users\\elian\\source\\repos\\ProyectoFinanzas\\Visual\\RegistroCliente.cs",
+              "RelativeToolTip": "Visual\\RegistroCliente.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-27T23:19:54.433Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Principal.cs",
+              "DocumentMoniker": "C:\\Users\\elian\\source\\repos\\ProyectoFinanzas\\Visual\\Principal.cs",
+              "RelativeDocumentMoniker": "Visual\\Principal.cs",
+              "ToolTip": "C:\\Users\\elian\\source\\repos\\ProyectoFinanzas\\Visual\\Principal.cs",
+              "RelativeToolTip": "Visual\\Principal.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwBoAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-27T20:30:43.503Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\elian\\source\\repos\\ProyectoFinanzas\\Visual\\Class1.cs",
+              "RelativeDocumentMoniker": "Visual\\Class1.cs",
+              "ToolTip": "C:\\Users\\elian\\source\\repos\\ProyectoFinanzas\\Visual\\Class1.cs",
+              "RelativeToolTip": "Visual\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T14:29:50.874Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Principal.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\elian\\source\\repos\\ProyectoFinanzas\\Visual\\Principal.cs",
+              "RelativeDocumentMoniker": "Visual\\Principal.cs",
+              "ToolTip": "C:\\Users\\elian\\source\\repos\\ProyectoFinanzas\\Visual\\Principal.cs [Design]",
+              "RelativeToolTip": "Visual\\Principal.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T14:20:33.252Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "RegistroCliente.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\elian\\source\\repos\\ProyectoFinanzas\\Visual\\RegistroCliente.cs",
+              "RelativeDocumentMoniker": "Visual\\RegistroCliente.cs",
+              "ToolTip": "C:\\Users\\elian\\source\\repos\\ProyectoFinanzas\\Visual\\RegistroCliente.cs [Design]",
+              "RelativeToolTip": "Visual\\RegistroCliente.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T14:03:01.65Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Conexi\u00F3n.cs",
+              "DocumentMoniker": "C:\\Users\\elian\\source\\repos\\ProyectoFinanzas\\Conexi\u00F3n\\Conexi\u00F3n.cs",
+              "RelativeDocumentMoniker": "Conexi\u00F3n\\Conexi\u00F3n.cs",
+              "ToolTip": "C:\\Users\\elian\\source\\repos\\ProyectoFinanzas\\Conexi\u00F3n\\Conexi\u00F3n.cs",
+              "RelativeToolTip": "Conexi\u00F3n\\Conexi\u00F3n.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABAAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-27T21:22:07.983Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "RegistroBancario.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\elian\\source\\repos\\ProyectoFinanzas\\Visual\\RegistroBancario.cs",
+              "RelativeDocumentMoniker": "Visual\\RegistroBancario.cs",
+              "ToolTip": "C:\\Users\\elian\\source\\repos\\ProyectoFinanzas\\Visual\\RegistroBancario.cs [Design]",
+              "RelativeToolTip": "Visual\\RegistroBancario.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-27T23:02:39.261Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
