@@ -41,6 +41,7 @@
             this.lblTel = new System.Windows.Forms.Label();
             this.lblDir = new System.Windows.Forms.Label();
             this.lblGarantía = new System.Windows.Forms.Label();
+            this.bRegistrarCliente = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lblNombre
@@ -168,12 +169,25 @@
             this.lblGarantía.TabIndex = 1;
             this.lblGarantía.Text = "Garantía:";
             // 
+            // bRegistrarCliente
+            // 
+            this.bRegistrarCliente.Font = new System.Drawing.Font("MS Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bRegistrarCliente.ForeColor = System.Drawing.Color.Black;
+            this.bRegistrarCliente.Location = new System.Drawing.Point(351, 345);
+            this.bRegistrarCliente.Name = "bRegistrarCliente";
+            this.bRegistrarCliente.Size = new System.Drawing.Size(139, 48);
+            this.bRegistrarCliente.TabIndex = 3;
+            this.bRegistrarCliente.Text = "Registrar";
+            this.bRegistrarCliente.UseVisualStyleBackColor = true;
+            this.bRegistrarCliente.Click += new System.EventHandler(this.bRegistrarCliente_Click);
+            // 
             // RegistroCliente
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.bRegistrarCliente);
             this.Controls.Add(this.txtCorreo);
             this.Controls.Add(this.txtGarantía);
             this.Controls.Add(this.txtDir);
@@ -213,5 +227,6 @@
         private System.Windows.Forms.Label lblTel;
         private System.Windows.Forms.Label lblDir;
         private System.Windows.Forms.Label lblGarantía;
+        private System.Windows.Forms.Button bRegistrarCliente;
     }
 }
