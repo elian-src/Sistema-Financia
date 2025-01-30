@@ -8,3 +8,11 @@ C:\Users\elian\source\repos\ProyectoFinanzas\Visual\obj\Debug\Visual.dll
 C:\Users\elian\source\repos\ProyectoFinanzas\Visual\obj\Debug\Visual.pdb
 C:\Users\elian\source\repos\ProyectoFinanzas\Visual\obj\Debug\Visual.Login.resources
 C:\Users\elian\source\repos\ProyectoFinanzas\Visual\obj\Debug\Visual.RegistroBancario.resources
+C:\Users\ianro\Documents\informatica\Repositorios\Sistema-Financia\Visual\obj\Debug\Visual.csproj.AssemblyReference.cache
+C:\Users\ianro\Documents\informatica\Repositorios\Sistema-Financia\Visual\obj\Debug\Visual.Login.resources
+C:\Users\ianro\Documents\informatica\Repositorios\Sistema-Financia\Visual\obj\Debug\Visual.RegistroBancario.resources
+C:\Users\ianro\Documents\informatica\Repositorios\Sistema-Financia\Visual\obj\Debug\Visual.RegistroCliente.resources
+C:\Users\ianro\Documents\informatica\Repositorios\Sistema-Financia\Visual\obj\Debug\Visual.csproj.GenerateResource.cache
+C:\Users\ianro\Documents\informatica\Repositorios\Sistema-Financia\Visual\obj\Debug\Visual.csproj.CoreCompileInputs.cache
+C:\Users\ianro\Documents\informatica\Repositorios\Sistema-Financia\Visual\obj\Debug\Visual.dll
+C:\Users\ianro\Documents\informatica\Repositorios\Sistema-Financia\Visual\obj\Debug\Visual.pdb

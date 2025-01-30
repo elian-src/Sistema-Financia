@@ -15,9 +15,9 @@ namespace Logica
 
             public Add(string Sueldo, string Direccion, Duracion)
             {
-                Sueldo = sueldo;
-                Direccion = direccion;
-                Duracion = duracion;
+                Sueldo = Sueldo;
+                Direccion = Direccion;
+                Duracion = Duracion;
             }
         }
 }

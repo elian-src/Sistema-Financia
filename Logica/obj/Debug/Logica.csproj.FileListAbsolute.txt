@@ -1,0 +1,2 @@
+C:\Users\ianro\Documents\informatica\Repositorios\Sistema-Financia\Logica\obj\Debug\Logica.csproj.AssemblyReference.cache
+C:\Users\ianro\Documents\informatica\Repositorios\Sistema-Financia\Logica\obj\Debug\Logica.csproj.CoreCompileInputs.cache
