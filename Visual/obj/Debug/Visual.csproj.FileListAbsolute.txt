@@ -16,3 +16,6 @@ C:\Users\ianro\Documents\informatica\Repositorios\Sistema-Financia\Visual\obj\De
 C:\Users\ianro\Documents\informatica\Repositorios\Sistema-Financia\Visual\obj\Debug\Visual.csproj.CoreCompileInputs.cache
 C:\Users\ianro\Documents\informatica\Repositorios\Sistema-Financia\Visual\obj\Debug\Visual.dll
 C:\Users\ianro\Documents\informatica\Repositorios\Sistema-Financia\Visual\obj\Debug\Visual.pdb
+C:\Users\elian\source\repos\ProyectoFinanzas\Visual\bin\Debug\Logica.dll
+C:\Users\elian\source\repos\ProyectoFinanzas\Visual\bin\Debug\Logica.pdb
+C:\Users\elian\source\repos\ProyectoFinanzas\Visual\obj\Debug\Visual.csproj.Up2Date

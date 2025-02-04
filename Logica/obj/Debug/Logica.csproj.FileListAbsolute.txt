@@ -1,2 +1,11 @@
 C:\Users\ianro\Documents\informatica\Repositorios\Sistema-Financia\Logica\obj\Debug\Logica.csproj.AssemblyReference.cache
 C:\Users\ianro\Documents\informatica\Repositorios\Sistema-Financia\Logica\obj\Debug\Logica.csproj.CoreCompileInputs.cache
+C:\Users\elian\source\repos\ProyectoFinanzas\Logica\bin\Debug\Logica.dll
+C:\Users\elian\source\repos\ProyectoFinanzas\Logica\bin\Debug\Logica.pdb
+C:\Users\elian\source\repos\ProyectoFinanzas\Logica\obj\Debug\Logica.csproj.AssemblyReference.cache
+C:\Users\elian\source\repos\ProyectoFinanzas\Logica\obj\Debug\Logica.csproj.CoreCompileInputs.cache
+C:\Users\elian\source\repos\ProyectoFinanzas\Logica\obj\Debug\Logica.dll
+C:\Users\elian\source\repos\ProyectoFinanzas\Logica\obj\Debug\Logica.pdb
+C:\Users\elian\source\repos\ProyectoFinanzas\Logica\bin\Debug\Conexión.dll
+C:\Users\elian\source\repos\ProyectoFinanzas\Logica\bin\Debug\Conexión.pdb
+C:\Users\elian\source\repos\ProyectoFinanzas\Logica\obj\Debug\Logica.csproj.Up2Date

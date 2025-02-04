@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Conexión", "Conexión\Cone
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logica", "Logica\Logica.csproj", "{BB0BD8A0-CA07-428C-B992-08BE506F8381}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Visual", "Visual\Visual.csproj", "{5A83432D-6A46-46BB-B2C5-CAF093AD5B66}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vista", "Vista\Vista.csproj", "{FC3C4A2B-962C-47F2-8F81-2A358C05E6A9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,10 +23,10 @@ Global
 		{BB0BD8A0-CA07-428C-B992-08BE506F8381}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BB0BD8A0-CA07-428C-B992-08BE506F8381}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BB0BD8A0-CA07-428C-B992-08BE506F8381}.Release|Any CPU.Build.0 = Release|Any CPU
-		{5A83432D-6A46-46BB-B2C5-CAF093AD5B66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5A83432D-6A46-46BB-B2C5-CAF093AD5B66}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5A83432D-6A46-46BB-B2C5-CAF093AD5B66}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5A83432D-6A46-46BB-B2C5-CAF093AD5B66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC3C4A2B-962C-47F2-8F81-2A358C05E6A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC3C4A2B-962C-47F2-8F81-2A358C05E6A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC3C4A2B-962C-47F2-8F81-2A358C05E6A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC3C4A2B-962C-47F2-8F81-2A358C05E6A9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

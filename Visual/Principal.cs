@@ -1,11 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Visual
@@ -31,7 +24,14 @@ namespace Visual
 
         private void btnIngresar_Click(object sender, EventArgs e)
         {
+
             if (txtUsuario.Text == "admin" && txtContraseña.Text == "0000")
+            {
+                RegistroCliente frmReg = new RegistroCliente();
+                this.Hide();
+                frmReg.Show();
+            }
+            else if (txtUsuario.Text == "JuanitoHernd" && txtContraseña.Text == "1234")
             {
                 RegistroCliente frmReg = new RegistroCliente();
                 this.Hide();
@@ -43,7 +43,7 @@ namespace Visual
                 txtUsuario.Clear();
                 txtContraseña.Clear();
             }
-            
         }
+
     }
 }

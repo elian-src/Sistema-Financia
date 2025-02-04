@@ -44,5 +44,11 @@
     <Compile Include="Add.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Conexión\Conexión.csproj">
+      <Project>{933df0e9-3c0a-4f27-99d4-fb285f59ca18}</Project>
+      <Name>Conexión</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
