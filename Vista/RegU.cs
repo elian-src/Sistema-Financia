@@ -29,11 +29,16 @@ namespace Vista
             }
             else
             {
-                Add add = new Add("", "", "");
-                add.saveAdd();
+                AddU add = new AddU("", "", "");
+                add.saveAddU();
                 MessageBox.Show("Registro completado con éxito.");
 
             }
+        }
+
+        private void RegU_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

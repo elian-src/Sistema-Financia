@@ -85,7 +85,7 @@
             // textBox1
             // 
             this.textBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.textBox1.Location = new System.Drawing.Point(214, 147);
+            this.textBox1.Location = new System.Drawing.Point(250, 148);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(387, 22);
             this.textBox1.TabIndex = 3;
@@ -93,7 +93,7 @@
             // textBox2
             // 
             this.textBox2.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.textBox2.Location = new System.Drawing.Point(260, 187);
+            this.textBox2.Location = new System.Drawing.Point(296, 187);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(341, 22);
             this.textBox2.TabIndex = 3;
@@ -101,7 +101,7 @@
             // textBox3
             // 
             this.textBox3.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.textBox3.Location = new System.Drawing.Point(405, 228);
+            this.textBox3.Location = new System.Drawing.Point(441, 228);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(196, 22);
             this.textBox3.TabIndex = 3;
@@ -132,6 +132,7 @@
             this.Controls.Add(this.label2);
             this.Name = "RegU";
             this.Text = "Registro Usuario";
+            this.Load += new System.EventHandler(this.RegU_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

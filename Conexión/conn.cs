@@ -14,7 +14,7 @@ namespace Conexión
 
         private string connestr = "Server=localhost; database=BdFinanzas; Integrated Security=True";
 
-        public void SaveAdd(string Sueldo, string Direccion, string Duracion)
+        public void SaveAddU(string Sueldo, string Direccion, string Duracion)
         {
             using (SqlConnection con = new SqlConnection(connestr))
             {
@@ -29,4 +29,24 @@ namespace Conexión
                 }
             }
         }
-}   }
+        public void saveAddADM(string Nombre, string Apellido, string Telefono, string Direccion, string Garantia, string Correo)
+        {
+            using (SqlConnection con = new SqlConnection(connestr))
+            {
+                con.Open();
+                string query = "INSERT INTO DatosIngresados (Nombre, Apellido, Telefono, Direccion, Garantia, Correo) VALUES (@Nombre, @Apellido, @Telefono, @Direccion, @Garantia, @Correo)";
+                using (SqlCommand cmd = new SqlCommand(query, con))
+                {
+                    cmd.Parameters.AddWithValue("@Nombre", Nombre);
+                    cmd.Parameters.AddWithValue("@Apellido", Direccion);
+                    cmd.Parameters.AddWithValue("@Telefono", Telefono);
+                    cmd.Parameters.AddWithValue("@Direccion", Direccion);
+                    cmd.Parameters.AddWithValue("@Garantia", Garantia);
+                    cmd.Parameters.AddWithValue("@Correo", Correo);
+                    cmd.ExecuteNonQuery();
+                }
+            }
+        }
+
+    }   
+}

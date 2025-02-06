@@ -9,14 +9,14 @@ using Conexión;
 
 namespace Logica
 {
-        public class Add
+        public class AddU
         {
             public string Sueldo { get; set; }
             public string Direccion { get; set; }
             public string Duracion { get; set; }
 
 
-            public Add(string Sueldo, string Direccion, string Duracion)
+            public AddU(string Sueldo, string Direccion, string Duracion)
             {
                 this.Sueldo = Sueldo;
                 this.Direccion = Direccion;
@@ -25,9 +25,9 @@ namespace Logica
 
             Connec conn = new Connec();
             
-            public void saveAdd()
+            public void saveAddU()
             {
-                conn.SaveAdd(Sueldo, Direccion, Duracion);
+                conn.SaveAddU(Sueldo, Direccion, Duracion);
             }
         }
 }

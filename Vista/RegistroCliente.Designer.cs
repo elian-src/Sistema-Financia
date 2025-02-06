@@ -116,42 +116,42 @@
             // 
             // txtNombre
             // 
-            this.txtNombre.Location = new System.Drawing.Point(357, 158);
+            this.txtNombre.Location = new System.Drawing.Point(368, 158);
             this.txtNombre.Name = "txtNombre";
             this.txtNombre.Size = new System.Drawing.Size(191, 22);
             this.txtNombre.TabIndex = 2;
             // 
             // txtApellido
             // 
-            this.txtApellido.Location = new System.Drawing.Point(357, 191);
+            this.txtApellido.Location = new System.Drawing.Point(368, 191);
             this.txtApellido.Name = "txtApellido";
             this.txtApellido.Size = new System.Drawing.Size(191, 22);
             this.txtApellido.TabIndex = 2;
             // 
             // txtTel
             // 
-            this.txtTel.Location = new System.Drawing.Point(357, 230);
+            this.txtTel.Location = new System.Drawing.Point(368, 230);
             this.txtTel.Name = "txtTel";
             this.txtTel.Size = new System.Drawing.Size(191, 22);
             this.txtTel.TabIndex = 2;
             // 
             // txtDir
             // 
-            this.txtDir.Location = new System.Drawing.Point(357, 264);
+            this.txtDir.Location = new System.Drawing.Point(368, 264);
             this.txtDir.Name = "txtDir";
             this.txtDir.Size = new System.Drawing.Size(191, 22);
             this.txtDir.TabIndex = 2;
             // 
             // txtGarantía
             // 
-            this.txtGarantía.Location = new System.Drawing.Point(357, 301);
+            this.txtGarantía.Location = new System.Drawing.Point(368, 301);
             this.txtGarantía.Name = "txtGarantía";
             this.txtGarantía.Size = new System.Drawing.Size(191, 22);
             this.txtGarantía.TabIndex = 2;
             // 
             // txtCorreo
             // 
-            this.txtCorreo.Location = new System.Drawing.Point(357, 339);
+            this.txtCorreo.Location = new System.Drawing.Point(368, 339);
             this.txtCorreo.Name = "txtCorreo";
             this.txtCorreo.Size = new System.Drawing.Size(191, 22);
             this.txtCorreo.TabIndex = 2;
@@ -187,7 +187,7 @@
             this.Controls.Add(this.lblNombre);
             this.Controls.Add(this.label1);
             this.Name = "RegistroCliente";
-            this.Text = "Registro Cliente";
+            this.Text = " ";
             this.ResumeLayout(false);
             this.PerformLayout();
 

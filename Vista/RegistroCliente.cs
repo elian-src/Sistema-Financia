@@ -33,8 +33,8 @@ namespace Vista
                     }
             else
             {
-                //Add add = new Add("", "", "");
-                //add.saveAdd();
+                AddADM add = new AddADM("", "", "", "", "", "");
+                add.saveAddADM();
                 MessageBox.Show("Registro completado con éxito.");
                 
             }
