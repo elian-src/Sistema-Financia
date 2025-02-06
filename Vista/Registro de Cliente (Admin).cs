@@ -26,15 +26,20 @@ namespace Vista
                     string.IsNullOrWhiteSpace(txtTel.Text) ||
                     string.IsNullOrWhiteSpace(txtDir.Text) ||
                     string.IsNullOrWhiteSpace(txtGarantía.Text) ||
-                    string.IsNullOrWhiteSpace(txtCorreo.Text))
+                    string.IsNullOrWhiteSpace(txtCorreo.Text) ||
+                    string.IsNullOrWhiteSpace(txtSalario.Text))
                     {
                         MessageBox.Show("Rellene todos los campos.");
                 
                     }
+            if (string.IsNullOrWhiteSpace(txtGarantía.Text))
+            {
+                MessageBox.Show("Ingrese una garantía valida.");
+            }
             else
             {
-                AddADM add = new AddADM("", "", "", "", "", "");
-                add.saveAddADM();
+                Cliente add = new Cliente("", "", "", "", "", "", "");
+                add.saveCliente();
                 MessageBox.Show("Registro completado con éxito.");
                 
             }

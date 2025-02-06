@@ -7,7 +7,7 @@ using Conexión;
 
 namespace Logica
 {
-    public class AddADM
+    public class Cliente
     {
         
         public string Nombre { get; set; }
@@ -16,9 +16,10 @@ namespace Logica
         public string Direccion { get; set; }
         public string Garantia { get; set; }
         public string Correo { get; set; }
+        public string Salario { get; set; }
 
 
-        public AddADM(string Nombre, string Apellido, string Telefono, string Direccion, string Garantia, string Correo)
+        public Cliente(string Nombre, string Apellido, string Telefono, string Direccion, string Garantia, string Correo, string Salario)
         {
             this.Nombre = Nombre;
             this.Apellido = Apellido;
@@ -26,13 +27,14 @@ namespace Logica
             this.Direccion = Direccion;
             this.Garantia = Garantia;
             this.Correo = Correo;
+            this.Salario = Salario;
         }
 
          Connec conn = new Connec();
 
-        public void saveAddADM()
+        public void saveCliente()
         {
-            conn.saveAddADM(Nombre, Apellido, Telefono, Direccion, Garantia, Correo);
+            conn.saveCliente(Nombre, Apellido, Telefono, Direccion, Garantia, Correo, Salario);
         }
     }
 }

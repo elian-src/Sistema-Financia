@@ -11,6 +11,8 @@ using Logica;
 
 namespace Vista
 {
+
+    
     public partial class RegU : Form
     {
         public RegU()
@@ -22,15 +24,16 @@ namespace Vista
         {
             if (string.IsNullOrWhiteSpace(textBox1.Text) ||
                     string.IsNullOrWhiteSpace(textBox2.Text) ||
-                    string.IsNullOrWhiteSpace(textBox3.Text))
+                    string.IsNullOrWhiteSpace(textBox3.Text) ||
+                    string.IsNullOrWhiteSpace(textBox4.Text))
             {
                 MessageBox.Show("Rellene todos los campos.");
 
             }
             else
             {
-                AddU add = new AddU("", "", "");
-                add.saveAddU();
+                Prestamo add = new Prestamo("", "", "", "");
+                add.savePrestamo();
                 MessageBox.Show("Registro completado con éxito.");
 
             }
