@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
@@ -102,6 +102,9 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <None Include="Proyecto Finanzaz\dinero.webp" />
+    <None Include="Proyecto Finanzaz\white-frame-free-png %281%29.webp" />
+    <None Include="Proyecto Finanzaz\white-frame-free-png.webp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -111,6 +114,27 @@
       <Project>{bb0bd8a0-ca07-428c-b992-08be506f8381}</Project>
       <Name>Logica</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Proyecto Finanzaz\205166.htm" />
+    <Content Include="Proyecto Finanzaz\2118701.png" />
+    <Content Include="Proyecto Finanzaz\422371.png" />
+    <Content Include="Proyecto Finanzaz\71678.png" />
+    <Content Include="Proyecto Finanzaz\btnMinimizar.png" />
+    <Content Include="Proyecto Finanzaz\btnOcultar.png" />
+    <Content Include="Proyecto Finanzaz\credit-icon-simple-element-from-crisis-collection-creative-credit-icon-for-web-design-templates-infographics-and-more-vector%282%29.png" />
+    <Content Include="Proyecto Finanzaz\credit-icon-simple-element-from-crisis-collection-creative-credit-icon-for-web-design-templates-infographics-and-more-vector.jpg" />
+    <Content Include="Proyecto Finanzaz\cuadrado-hueco.png" />
+    <Content Include="Proyecto Finanzaz\dinero%281%29.png" />
+    <Content Include="Proyecto Finanzaz\dinero.png" />
+    <Content Include="Proyecto Finanzaz\images%282%29.png" />
+    <Content Include="Proyecto Finanzaz\images.png" />
+    <Content Include="Proyecto Finanzaz\personas.png" />
+    <Content Include="Proyecto Finanzaz\pngtree-frame-png-image_3013508.jpg" />
+    <Content Include="Proyecto Finanzaz\pngtree-light-effect-square-frame-png-image_6262247.jpg" />
+    <Content Include="Proyecto Finanzaz\Red_X.svg.png" />
+    <Content Include="Proyecto Finanzaz\Sin título%281%29.png" />
+    <Content Include="Proyecto Finanzaz\Sin título.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
