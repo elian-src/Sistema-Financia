@@ -15,18 +15,18 @@ namespace Conexión
 
         private string connestr = "Server=localhost; database=BdFinanzas; Integrated Security=True";
 
-        public void savePrestamo(string IDCliente, string Monto, string Interes, string Fecha)
+        public void savePrestamo(string IDCliente, string Monto, string Interes, string Duracion)
         {
             using (SqlConnection con = new SqlConnection(connestr))
             {
                 con.Open();
-                string query = "INSERT INTO Prestamo (IDCliente, Monto, Interes, Fecha) VALUES (@IDCliente, @Monto, @Interes, Fecha)";
+                string query = "INSERT INTO Prestamo (IDCliente, Monto, Interes, Duracion) VALUES (@IDCliente, @Monto, @Interes, @Duracion)";
                 using (SqlCommand cmd = new SqlCommand(query, con))
                 {
                     cmd.Parameters.AddWithValue("@IDCliente", IDCliente);
                     cmd.Parameters.AddWithValue("@Monto", Monto);
                     cmd.Parameters.AddWithValue("@Interes", Interes);
-                    cmd.Parameters.AddWithValue("@Fecha", Fecha);
+                    cmd.Parameters.AddWithValue("@Duracion", Duracion);
                     cmd.ExecuteNonQuery();
                 }
             }
@@ -66,8 +66,10 @@ namespace Conexión
             }
         }
 
+
         public decimal getSueldoCliente(int id)
         {
+            decimal sueldo = 0;
             using (SqlConnection con = new SqlConnection(connestr))
             {
                 con.Open();
@@ -76,17 +78,16 @@ namespace Conexión
                 {
                     cmd.Parameters.AddWithValue("@id", id);
 
-                    using (SqlDataReader r = cmd.ExecuteReader()) {
-                        decimal Sueldo = 0;
-
-                        if (r.Read()) {
-                            Sueldo = r.GetDecimal(0);
+                    using (SqlDataReader r = cmd.ExecuteReader())
+                    {
+                        if (r.Read())
+                        {
+                            sueldo = r.GetDecimal(0);
                         }
-                        return Sueldo;
-
                     }
                 }
             }
+            return sueldo;
         }
-    }   
+    }
 }

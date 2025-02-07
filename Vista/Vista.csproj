@@ -107,6 +107,10 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Conexión\Conexión.csproj">
+      <Project>{933df0e9-3c0a-4f27-99d4-fb285f59ca18}</Project>
+      <Name>Conexión</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Logica\Logica.csproj">
       <Project>{bb0bd8a0-ca07-428c-b992-08be506f8381}</Project>
       <Name>Logica</Name>

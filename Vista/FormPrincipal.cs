@@ -39,7 +39,7 @@ namespace Vista
 
         private void button1_Click(object sender, EventArgs e)
         {
-            RegU f = new RegU();
+            RegPrestamo f = new RegPrestamo();
             OpenForm(f);
         }
 

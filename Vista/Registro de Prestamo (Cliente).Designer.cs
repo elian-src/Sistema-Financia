@@ -1,6 +1,6 @@
 ﻿namespace Vista
 {
-    partial class RegU
+    partial class RegPrestamo
     {
         /// <summary>
         /// Required designer variable.
@@ -33,11 +33,12 @@
             this.label3 = new System.Windows.Forms.Label();
             this.lblDurP = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.btnRegistrar2 = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
+            this.lblDuracion = new System.Windows.Forms.Label();
             this.textBox4 = new System.Windows.Forms.TextBox();
+            this.lblMonto = new System.Windows.Forms.Label();
+            this.textBox2 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // label2
@@ -92,14 +93,6 @@
             this.textBox1.Size = new System.Drawing.Size(387, 22);
             this.textBox1.TabIndex = 3;
             // 
-            // textBox2
-            // 
-            this.textBox2.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.textBox2.Location = new System.Drawing.Point(296, 187);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(341, 22);
-            this.textBox2.TabIndex = 3;
-            // 
             // textBox3
             // 
             this.textBox3.Anchor = System.Windows.Forms.AnchorStyles.None;
@@ -111,24 +104,24 @@
             // btnRegistrar2
             // 
             this.btnRegistrar2.Font = new System.Drawing.Font("MS Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnRegistrar2.Location = new System.Drawing.Point(283, 301);
+            this.btnRegistrar2.Location = new System.Drawing.Point(311, 292);
             this.btnRegistrar2.Name = "btnRegistrar2";
             this.btnRegistrar2.Size = new System.Drawing.Size(120, 47);
             this.btnRegistrar2.TabIndex = 4;
             this.btnRegistrar2.Text = "Registrar";
             this.btnRegistrar2.UseVisualStyleBackColor = true;
-            this.btnRegistrar2.Click += new System.EventHandler(this.btnRegistrar2_Click);
+            this.btnRegistrar2.Click += new System.EventHandler(this.btnRegistrar2_Click_1);
             // 
-            // label1
+            // lblDuracion
             // 
-            this.label1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("MS Gothic", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(195, 260);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(88, 23);
-            this.label1.TabIndex = 2;
-            this.label1.Text = "Fecha:";
+            this.lblDuracion.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.lblDuracion.AutoSize = true;
+            this.lblDuracion.Font = new System.Drawing.Font("MS Gothic", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDuracion.Location = new System.Drawing.Point(156, 260);
+            this.lblDuracion.Name = "lblDuracion";
+            this.lblDuracion.Size = new System.Drawing.Size(127, 23);
+            this.lblDuracion.TabIndex = 2;
+            this.lblDuracion.Text = "Duración:";
             // 
             // textBox4
             // 
@@ -138,24 +131,41 @@
             this.textBox4.Size = new System.Drawing.Size(341, 22);
             this.textBox4.TabIndex = 3;
             // 
-            // RegU
+            // lblMonto
+            // 
+            this.lblMonto.AutoSize = true;
+            this.lblMonto.Font = new System.Drawing.Font("MS Gothic", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblMonto.Location = new System.Drawing.Point(296, 192);
+            this.lblMonto.Name = "lblMonto";
+            this.lblMonto.Size = new System.Drawing.Size(0, 23);
+            this.lblMonto.TabIndex = 5;
+            // 
+            // textBox2
+            // 
+            this.textBox2.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.textBox2.Location = new System.Drawing.Point(296, 190);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(341, 22);
+            this.textBox2.TabIndex = 3;
+            // 
+            // RegPrestamo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.lblMonto);
             this.Controls.Add(this.btnRegistrar2);
             this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
             this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.lblDuracion);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.lblDurP);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.lbliD);
             this.Controls.Add(this.label2);
-            this.Name = "RegU";
-            this.Text = "Registro Usuario";
-            this.Load += new System.EventHandler(this.RegU_Load);
+            this.Name = "RegPrestamo";
+            this.Text = "Registro de Prestamo";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -168,10 +178,11 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label lblDurP;
         private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.Button btnRegistrar2;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label lblDuracion;
         private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.Label lblMonto;
+        private System.Windows.Forms.TextBox textBox2;
     }
 }
