@@ -23,17 +23,17 @@ namespace Vista
         {
             if (openForm != null)
             {
-                this.panel2.Controls.Remove(openForm);
+                this.panel3.Controls.Remove(openForm);
                 openForm.Close();
             }
 
             openForm = form;
             form.FormBorderStyle = FormBorderStyle.None;
-            form.Tag = panel2.Tag;
+            form.Tag = panel3.Tag;
             form.TopLevel = false;
 
-            panel2.Controls.Add(form);
-            panel2.BringToFront();
+            panel3.Controls.Add(form);
+            panel3.BringToFront();
             form.Show();
         }
 
@@ -47,6 +47,30 @@ namespace Vista
         {
             RegistroCliente f = new RegistroCliente();
             OpenForm(f);
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void btnMaximizar_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Maximized;
+            btnMaximizar.Visible = false;
+            btnMinimizar.Visible = true;
+        }
+
+        private void btnMinimizar_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Normal;
+            btnMaximizar.Visible = true;
+            btnMinimizar.Visible = false;
+        }
+
+        private void btnOcultar_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Minimized;
         }
     }
 }

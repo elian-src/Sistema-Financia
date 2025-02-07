@@ -47,5 +47,34 @@ namespace Vista
                 txtContraseña.Clear();
             }
         }
+
+        private void Login_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnCerrar_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void btnMaximizar_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Maximized;
+            btnMaximizar.Visible = false;
+            btnMinimizar.Visible = true;
+        }
+
+        private void btnOcultar_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Minimized;
+        }
+
+        private void btnMinimizar_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Normal;
+            btnMaximizar.Visible = true;
+            btnMinimizar.Visible = false;
+        }
     }
 }
