@@ -27,107 +27,71 @@ namespace Vista
         {
             InitializeComponent();
         }
-
         private void btnRegistrar2_Click(object sender, EventArgs e)
         {
             if (string.IsNullOrWhiteSpace(textBox1.Text) ||
+                string.IsNullOrWhiteSpace(textBox2.Text) ||
                 string.IsNullOrWhiteSpace(textBox3.Text) ||
                 string.IsNullOrWhiteSpace(textBox4.Text))
             {
-                MessageBox.Show("Rellene todos los campos.");
+                MessageBox.Show("Por favor, complete todos los campos.", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
 
-            // Obtener el ID del cliente desde textBox1
-            if (!int.TryParse(textBox1.Text, out int idCliente))
+            if (!int.TryParse(textBox1.Text, out int idCliente) ||
+                !decimal.TryParse(textBox2.Text, out decimal monto) ||
+                !decimal.TryParse(textBox3.Text, out decimal interes) ||
+                !int.TryParse(textBox4.Text, out int duracion))
             {
-                MessageBox.Show("Ingrese un ID de cliente válido.");
+                MessageBox.Show("Por favor, ingrese valores numéricos válidos.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
 
-            // Crear instancia de conexión y obtener el sueldo del cliente
-            Connec con = new Connec();
-            decimal sueldo = con.getSueldoCliente(idCliente);
-            decimal maxPrestamo = sueldo * 4;
+            Connec connec = new Connec();
+            bool registroExitoso = connec.savePrestamo(idCliente, monto, interes, duracion);
 
-            // Obtener el monto ingresado
+            if (registroExitoso)
+            {
+                MessageBox.Show("Préstamo registrado con éxito.", "Éxito", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+            else
+            {
+                MessageBox.Show("Error al registrar el préstamo. Intente nuevamente.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+
             if (!decimal.TryParse(textBox2.Text, out decimal montoSolicitado))
             {
                 MessageBox.Show("Ingrese un monto válido.");
                 return;
             }
 
-            // Validar la regla de negocio
+            if (!int.TryParse(textBox4.Text, out int duracionMeses))
+            {
+                MessageBox.Show("Ingrese la duración del préstamo en meses.");
+                return;
+            }
+
+            Connec con = new Connec();
+            decimal sueldo = con.getSueldoCliente(idCliente);
+            decimal maxPrestamo = sueldo * 4;
+
             if (montoSolicitado > maxPrestamo)
             {
                 MessageBox.Show($"El préstamo solicitado excede el límite permitido.\nMáximo permitido: {maxPrestamo:C}");
                 return;
             }
 
-            // Si todo está correcto, registrar el préstamo
-            Prestamo add = new Prestamo(textBox1.Text, textBox2.Text, textBox3.Text, textBox4.Text);
-            add.savePrestamo();
-            MessageBox.Show("Registro de préstamo completado con éxito.");
+            decimal porcentajeInteres = CalcularInteres(duracionMeses);
+            decimal interesCalculado = montoSolicitado * porcentajeInteres;
 
-        }
-
-        private void btnRegistrar2_Click_1(object sender, EventArgs e)
-        {
-            {
-                if (string.IsNullOrWhiteSpace(textBox1.Text) ||
-                    string.IsNullOrWhiteSpace(textBox2.Text) ||
-                    string.IsNullOrWhiteSpace(textBox4.Text))
-                {
-                    MessageBox.Show("Rellene todos los campos.");
-                    return;
-                }
-
-                // Obtener IDCliente
-                if (!int.TryParse(textBox1.Text, out int idCliente))
-                {
-                    MessageBox.Show("Ingrese un ID de cliente válido.");
-                    return;
-                }
-
-                // Obtener monto solicitado
-                if (!decimal.TryParse(textBox2.Text, out decimal montoSolicitado))
-                {
-                    MessageBox.Show("Ingrese un monto válido.");
-                    return;
-                }
-
-                // Obtener duración en meses
-                if (!int.TryParse(textBox4.Text, out int duracionMeses))
-                {
-                    MessageBox.Show("Ingrese la duración del préstamo en meses.");
-                    return;
-                }
-
-                // Verificar sueldo del cliente y validar monto
-                Connec con = new Connec();
-                decimal sueldo = con.getSueldoCliente(idCliente);
-                decimal maxPrestamo = sueldo * 4;
-
-                if (montoSolicitado > maxPrestamo)
-                {
-                    MessageBox.Show($"El préstamo solicitado excede el límite permitido.\nMáximo permitido: {maxPrestamo:C}");
-                    return;
-                }
-
-                // Calcular interés según la duración
-                decimal porcentajeInteres = CalcularInteres(duracionMeses);
-                decimal interesCalculado = montoSolicitado * porcentajeInteres;
-
-                // Registrar el préstamo
-                Prestamo prestamo = new Prestamo(
-                    textBox1.Text,
-                    montoSolicitado.ToString(),
-                    interesCalculado.ToString(),
-                    textBox4.Text
-                );
-                prestamo.savePrestamo();
-                MessageBox.Show($"Préstamo registrado con éxito.\nInterés aplicado: {porcentajeInteres * 100}%");
-            }
+            Prestamo prestamo = new Prestamo(
+                idCliente,
+                montoSolicitado,
+                interesCalculado,
+                duracionMeses
+            );
+            prestamo.savePrestamo();
+            MessageBox.Show($"Préstamo registrado con éxito.\nInterés aplicado: {porcentajeInteres * 100}%");
         }
     }
 }

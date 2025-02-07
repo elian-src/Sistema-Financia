@@ -173,7 +173,7 @@
             this.MaximumSize = new System.Drawing.Size(996, 565);
             this.MinimumSize = new System.Drawing.Size(996, 565);
             this.Name = "RegPrestamo";
-            this.Text = "Registro Usuario";
+            this.Text = "Registro de Prestamo";
             this.ResumeLayout(false);
             this.PerformLayout();
 

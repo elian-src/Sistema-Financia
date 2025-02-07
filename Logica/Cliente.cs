@@ -16,10 +16,10 @@ namespace Logica
         public string Direccion { get; set; }
         public string Garantia { get; set; }
         public string Correo { get; set; }
-        public string Salario { get; set; }
+        public decimal Salario { get; set; }
 
 
-        public Cliente(string Nombre, string Apellido, string Telefono, string Direccion, string Garantia, string Correo, string Salario)
+        public Cliente(string Nombre, string Apellido, string Telefono, string Direccion, string Garantia, string Correo, decimal Salario)
         {
             this.Nombre = Nombre;
             this.Apellido = Apellido;

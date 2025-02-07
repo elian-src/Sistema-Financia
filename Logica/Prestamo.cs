@@ -11,25 +11,25 @@ namespace Logica
 {
         public class Prestamo
         {
-            public string IDCliente { get; set; }
-            public string Monto { get; set; }
-            public string Interes { get; set; }
-            public string Fecha { get; set; }
+            public int IDCliente { get; set; }
+            public decimal Monto { get; set; }
+            public decimal Interes { get; set; }
+            public int Duracion { get; set; }
 
 
-        public Prestamo(string IDCliente, string Monto, string Interes, string Fecha)
+        public Prestamo(int IDCliente, decimal Monto, decimal Interes, int Duracion)
             {
                 this.IDCliente = IDCliente;
                 this.Monto = Monto;
                 this.Interes = Interes;
-                this.Fecha = Fecha;
+                this.Duracion = Duracion;
             }
 
             Connec conn = new Connec();
             
             public void savePrestamo()
             {
-                conn.savePrestamo(IDCliente, Monto, Interes, Fecha);
+                conn.savePrestamo(IDCliente, Monto, Interes, Duracion);
             }
         }
 }
