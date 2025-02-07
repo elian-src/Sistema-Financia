@@ -48,7 +48,7 @@
             this.label2.Font = new System.Drawing.Font("MS UI Gothic", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(304, 24);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(362, 34);
+            this.label2.Size = new System.Drawing.Size(353, 33);
             this.label2.TabIndex = 1;
             this.label2.Text = "REGISTRO BANCARIO";
             // 
@@ -130,16 +130,16 @@
             this.label1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(36, 234);
+            this.label1.Location = new System.Drawing.Point(-3, 227);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(86, 29);
+            this.label1.Size = new System.Drawing.Size(115, 29);
             this.label1.TabIndex = 2;
-            this.label1.Text = "Fecha:";
+            this.label1.Text = "Duración:";
             // 
             // textBox4
             // 
             this.textBox4.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.textBox4.Location = new System.Drawing.Point(128, 241);
+            this.textBox4.Location = new System.Drawing.Point(118, 234);
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(317, 22);
             this.textBox4.TabIndex = 3;

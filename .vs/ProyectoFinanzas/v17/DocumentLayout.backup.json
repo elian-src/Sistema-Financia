@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "C:\\Users\\ianro\\Documents\\informatica\\Repositorios\\Sistema-Financia\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{FC3C4A2B-962C-47F2-8F81-2A358C05E6A9}|Vista\\Vista.csproj|C:\\Users\\ianro\\Documents\\informatica\\Repositorios\\Sistema-Financia\\vista\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC3C4A2B-962C-47F2-8F81-2A358C05E6A9}|Vista\\Vista.csproj|solutionrelative:vista\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC3C4A2B-962C-47F2-8F81-2A358C05E6A9}|Vista\\Vista.csproj|C:\\Users\\ianro\\Documents\\informatica\\Repositorios\\Sistema-Financia\\vista\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FC3C4A2B-962C-47F2-8F81-2A358C05E6A9}|Vista\\Vista.csproj|solutionrelative:vista\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC3C4A2B-962C-47F2-8F81-2A358C05E6A9}|Vista\\Vista.csproj|C:\\Users\\ianro\\Documents\\informatica\\Repositorios\\Sistema-Financia\\vista\\registro de prestamo (cliente).cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC3C4A2B-962C-47F2-8F81-2A358C05E6A9}|Vista\\Vista.csproj|solutionrelative:vista\\registro de prestamo (cliente).cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{FC3C4A2B-962C-47F2-8F81-2A358C05E6A9}|Vista\\Vista.csproj|c:\\users\\ianro\\documents\\informatica\\repositorios\\sistema-financia\\vista\\formprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{FC3C4A2B-962C-47F2-8F81-2A358C05E6A9}|Vista\\Vista.csproj|solutionrelative:vista\\formprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
@@ -15,20 +27,8 @@
       "RelativeMoniker": "D:0:0:{FC3C4A2B-962C-47F2-8F81-2A358C05E6A9}|Vista\\Vista.csproj|solutionrelative:vista\\registro de cliente (admin).cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FC3C4A2B-962C-47F2-8F81-2A358C05E6A9}|Vista\\Vista.csproj|c:\\users\\ianro\\documents\\informatica\\repositorios\\sistema-financia\\vista\\registro de prestamo (cliente).cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FC3C4A2B-962C-47F2-8F81-2A358C05E6A9}|Vista\\Vista.csproj|solutionrelative:vista\\registro de prestamo (cliente).cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FC3C4A2B-962C-47F2-8F81-2A358C05E6A9}|Vista\\Vista.csproj|C:\\Users\\ianro\\Documents\\informatica\\Repositorios\\Sistema-Financia\\vista\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{FC3C4A2B-962C-47F2-8F81-2A358C05E6A9}|Vista\\Vista.csproj|solutionrelative:vista\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{FC3C4A2B-962C-47F2-8F81-2A358C05E6A9}|Vista\\Vista.csproj|C:\\Users\\ianro\\Documents\\informatica\\Repositorios\\Sistema-Financia\\vista\\formprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FC3C4A2B-962C-47F2-8F81-2A358C05E6A9}|Vista\\Vista.csproj|solutionrelative:vista\\formprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FC3C4A2B-962C-47F2-8F81-2A358C05E6A9}|Vista\\Vista.csproj|C:\\Users\\ianro\\Documents\\informatica\\Repositorios\\Sistema-Financia\\vista\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FC3C4A2B-962C-47F2-8F81-2A358C05E6A9}|Vista\\Vista.csproj|solutionrelative:vista\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,11 +38,11 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "FormPrincipal.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\ianro\\Documents\\informatica\\Repositorios\\Sistema-Financia\\Vista\\FormPrincipal.cs",
               "RelativeDocumentMoniker": "Vista\\FormPrincipal.cs",
@@ -63,46 +63,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Registro de Prestamo (Cliente).cs",
               "DocumentMoniker": "C:\\Users\\ianro\\Documents\\informatica\\Repositorios\\Sistema-Financia\\Vista\\Registro de Prestamo (Cliente).cs",
               "RelativeDocumentMoniker": "Vista\\Registro de Prestamo (Cliente).cs",
               "ToolTip": "C:\\Users\\ianro\\Documents\\informatica\\Repositorios\\Sistema-Financia\\Vista\\Registro de Prestamo (Cliente).cs",
               "RelativeToolTip": "Vista\\Registro de Prestamo (Cliente).cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAuwCsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAAAYwDIAAABlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-07T06:39:39.874Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "FormPrincipal.cs",
               "DocumentMoniker": "C:\\Users\\ianro\\Documents\\informatica\\Repositorios\\Sistema-Financia\\Vista\\FormPrincipal.cs",
               "RelativeDocumentMoniker": "Vista\\FormPrincipal.cs",
               "ToolTip": "C:\\Users\\ianro\\Documents\\informatica\\Repositorios\\Sistema-Financia\\Vista\\FormPrincipal.cs",
               "RelativeToolTip": "Vista\\FormPrincipal.cs",
-              "ViewState": "AgIAACoAAAAAAAAAAAAqwEEAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAACoAAAAAAAAAAAAqwDoAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-06T16:47:48.036Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
               "Title": "Login.cs",
               "DocumentMoniker": "C:\\Users\\ianro\\Documents\\informatica\\Repositorios\\Sistema-Financia\\Vista\\Login.cs",
               "RelativeDocumentMoniker": "Vista\\Login.cs",
-              "ToolTip": "C:\\Users\\ianro\\Documents\\informatica\\Repositorios\\Sistema-Financia\\Vista\\Login.cs",
-              "RelativeToolTip": "Vista\\Login.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAmwBkAAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\ianro\\Documents\\informatica\\Repositorios\\Sistema-Financia\\Vista\\Login.cs*",
+              "RelativeToolTip": "Vista\\Login.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEsAAABlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-06T16:22:21.607Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Registro de Prestamo (Cliente).cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\ianro\\Documents\\informatica\\Repositorios\\Sistema-Financia\\Vista\\Registro de Prestamo (Cliente).cs",
               "RelativeDocumentMoniker": "Vista\\Registro de Prestamo (Cliente).cs",
@@ -114,7 +114,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "Registro de Cliente (Admin).cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\ianro\\Documents\\informatica\\Repositorios\\Sistema-Financia\\Vista\\Registro de Cliente (Admin).cs",
               "RelativeDocumentMoniker": "Vista\\Registro de Cliente (Admin).cs",
@@ -126,12 +126,12 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "Login.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\ianro\\Documents\\informatica\\Repositorios\\Sistema-Financia\\Vista\\Login.cs",
               "RelativeDocumentMoniker": "Vista\\Login.cs",
-              "ToolTip": "C:\\Users\\ianro\\Documents\\informatica\\Repositorios\\Sistema-Financia\\Vista\\Login.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Vista\\Login.cs [Dise\u00F1o]",
+              "ToolTip": "C:\\Users\\ianro\\Documents\\informatica\\Repositorios\\Sistema-Financia\\Vista\\Login.cs [Dise\u00F1o]*",
+              "RelativeToolTip": "Vista\\Login.cs [Dise\u00F1o]*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-06T16:20:51.576Z",
               "EditorCaption": " [Dise\u00F1o]"

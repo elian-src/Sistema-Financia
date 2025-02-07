@@ -111,7 +111,7 @@
             // 
             this.lblCorreo.AutoSize = true;
             this.lblCorreo.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCorreo.Location = new System.Drawing.Point(537, 273);
+            this.lblCorreo.Location = new System.Drawing.Point(526, 273);
             this.lblCorreo.Name = "lblCorreo";
             this.lblCorreo.Size = new System.Drawing.Size(94, 29);
             this.lblCorreo.TabIndex = 1;
@@ -155,7 +155,7 @@
             // 
             // txtCorreo
             // 
-            this.txtCorreo.Location = new System.Drawing.Point(644, 273);
+            this.txtCorreo.Location = new System.Drawing.Point(644, 277);
             this.txtCorreo.Name = "txtCorreo";
             this.txtCorreo.Size = new System.Drawing.Size(191, 22);
             this.txtCorreo.TabIndex = 2;
