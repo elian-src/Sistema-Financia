@@ -72,6 +72,12 @@
     <Compile Include="Registro de Prestamo %28Cliente%29.Designer.cs">
       <DependentUpon>Registro de Prestamo %28Cliente%29.cs</DependentUpon>
     </Compile>
+    <Compile Include="Tabla de Amortizaciones %28Cliente%29.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tabla de Amortizaciones %28Cliente%29.Designer.cs">
+      <DependentUpon>Tabla de Amortizaciones %28Cliente%29.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="FormPrincipal.resx">
       <DependentUpon>FormPrincipal.cs</DependentUpon>
     </EmbeddedResource>
@@ -92,6 +98,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Registro de Prestamo %28Cliente%29.resx">
       <DependentUpon>Registro de Prestamo %28Cliente%29.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tabla de Amortizaciones %28Cliente%29.resx">
+      <DependentUpon>Tabla de Amortizaciones %28Cliente%29.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

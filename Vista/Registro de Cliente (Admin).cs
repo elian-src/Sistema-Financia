@@ -37,5 +37,10 @@ namespace Vista
             add.saveCliente();
             MessageBox.Show("Registro completado con éxito.");
         }
+
+        private void RegistroCliente_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -72,5 +72,11 @@ namespace Vista
         {
             this.WindowState = FormWindowState.Minimized;
         }
+
+        private void button3_Click_1(object sender, EventArgs e)
+        {
+            Tabla_de_Amortizaciones__Cliente_ f = new Tabla_de_Amortizaciones__Cliente_();
+            OpenForm(f);
+        }
     }
 }

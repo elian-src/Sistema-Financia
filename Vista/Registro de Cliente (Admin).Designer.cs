@@ -60,60 +60,60 @@
             // lblNombre
             // 
             this.lblNombre.AutoSize = true;
-            this.lblNombre.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNombre.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblNombre.Location = new System.Drawing.Point(119, 133);
             this.lblNombre.Name = "lblNombre";
-            this.lblNombre.Size = new System.Drawing.Size(107, 29);
+            this.lblNombre.Size = new System.Drawing.Size(114, 29);
             this.lblNombre.TabIndex = 1;
             this.lblNombre.Text = "Nombre:";
             // 
             // lblApellido
             // 
             this.lblApellido.AutoSize = true;
-            this.lblApellido.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblApellido.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblApellido.Location = new System.Drawing.Point(112, 205);
             this.lblApellido.Name = "lblApellido";
-            this.lblApellido.Size = new System.Drawing.Size(108, 29);
+            this.lblApellido.Size = new System.Drawing.Size(117, 29);
             this.lblApellido.TabIndex = 1;
             this.lblApellido.Text = "Apellido:";
             // 
             // lblTel
             // 
             this.lblTel.AutoSize = true;
-            this.lblTel.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTel.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTel.Location = new System.Drawing.Point(104, 273);
             this.lblTel.Name = "lblTel";
-            this.lblTel.Size = new System.Drawing.Size(116, 29);
+            this.lblTel.Size = new System.Drawing.Size(125, 29);
             this.lblTel.TabIndex = 1;
             this.lblTel.Text = "Teléfono:";
             // 
             // lblDirección
             // 
             this.lblDirección.AutoSize = true;
-            this.lblDirección.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDirección.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblDirección.Location = new System.Drawing.Point(498, 129);
             this.lblDirección.Name = "lblDirección";
-            this.lblDirección.Size = new System.Drawing.Size(121, 29);
+            this.lblDirección.Size = new System.Drawing.Size(131, 29);
             this.lblDirección.TabIndex = 1;
             this.lblDirección.Text = "Dirección:";
             // 
             // lblGarantía
             // 
             this.lblGarantía.AutoSize = true;
-            this.lblGarantía.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblGarantía.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblGarantía.Location = new System.Drawing.Point(511, 205);
             this.lblGarantía.Name = "lblGarantía";
-            this.lblGarantía.Size = new System.Drawing.Size(109, 29);
+            this.lblGarantía.Size = new System.Drawing.Size(118, 29);
             this.lblGarantía.TabIndex = 1;
             this.lblGarantía.Text = "Garantía:";
             // 
             // lblCorreo
             // 
             this.lblCorreo.AutoSize = true;
-            this.lblCorreo.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCorreo.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblCorreo.Location = new System.Drawing.Point(526, 273);
             this.lblCorreo.Name = "lblCorreo";
-            this.lblCorreo.Size = new System.Drawing.Size(94, 29);
+            this.lblCorreo.Size = new System.Drawing.Size(101, 29);
             this.lblCorreo.TabIndex = 1;
             this.lblCorreo.Text = "Correo:";
             // 
@@ -165,7 +165,7 @@
             this.btnRegistrar.BackColor = System.Drawing.Color.DimGray;
             this.btnRegistrar.FlatAppearance.BorderSize = 0;
             this.btnRegistrar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.btnRegistrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnRegistrar.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.btnRegistrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnRegistrar.ForeColor = System.Drawing.Color.White;
             this.btnRegistrar.Location = new System.Drawing.Point(413, 428);
@@ -217,6 +217,7 @@
             this.Controls.Add(this.label1);
             this.Name = "RegistroCliente";
             this.Text = " ";
+            this.Load += new System.EventHandler(this.RegistroCliente_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

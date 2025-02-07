@@ -2,7 +2,6 @@ C:\Users\elian\source\repos\ProyectoFinanzas\Vista\obj\Debug\Vista.csproj.Assemb
 C:\Users\elian\source\repos\ProyectoFinanzas\Vista\obj\Debug\Vista.Login.resources
 C:\Users\elian\source\repos\ProyectoFinanzas\Vista\obj\Debug\Vista.Properties.Resources.resources
 C:\Users\elian\source\repos\ProyectoFinanzas\Vista\obj\Debug\Vista.RegistroCliente.resources
-C:\Users\elian\source\repos\ProyectoFinanzas\Vista\obj\Debug\Vista.RegU.resources
 C:\Users\elian\source\repos\ProyectoFinanzas\Vista\obj\Debug\Vista.csproj.GenerateResource.cache
 C:\Users\elian\source\repos\ProyectoFinanzas\Vista\obj\Debug\Vista.csproj.CoreCompileInputs.cache
 C:\Users\elian\source\repos\ProyectoFinanzas\Vista\bin\Debug\Vista.exe.config
@@ -34,3 +33,5 @@ C:\Users\ianro\Documents\informatica\Repositorios\Sistema-Financia\Vista\obj\Deb
 C:\Users\ianro\Documents\informatica\Repositorios\Sistema-Financia\Vista\obj\Debug\Vista.csproj.Up2Date
 C:\Users\ianro\Documents\informatica\Repositorios\Sistema-Financia\Vista\obj\Debug\Vista.exe
 C:\Users\ianro\Documents\informatica\Repositorios\Sistema-Financia\Vista\obj\Debug\Vista.pdb
+C:\Users\elian\source\repos\ProyectoFinanzas\Vista\obj\Debug\Vista.RegPrestamo.resources
+C:\Users\elian\source\repos\ProyectoFinanzas\Vista\obj\Debug\Vista.Tabla_de_Amortizaciones__Cliente_.resources
