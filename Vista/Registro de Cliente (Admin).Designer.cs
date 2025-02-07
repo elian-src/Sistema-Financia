@@ -50,138 +50,145 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("MS Gothic", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(239, 77);
+            this.label1.Location = new System.Drawing.Point(329, 40);
+            this.label1.MinimumSize = new System.Drawing.Size(362, 34);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(321, 33);
+            this.label1.Size = new System.Drawing.Size(362, 34);
             this.label1.TabIndex = 0;
             this.label1.Text = "REGISTRO BANCARIO";
             // 
             // lblNombre
             // 
             this.lblNombre.AutoSize = true;
-            this.lblNombre.Font = new System.Drawing.Font("MS Gothic", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNombre.Location = new System.Drawing.Point(258, 158);
+            this.lblNombre.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNombre.Location = new System.Drawing.Point(119, 133);
             this.lblNombre.Name = "lblNombre";
-            this.lblNombre.Size = new System.Drawing.Size(101, 23);
+            this.lblNombre.Size = new System.Drawing.Size(107, 29);
             this.lblNombre.TabIndex = 1;
             this.lblNombre.Text = "Nombre:";
             // 
             // lblApellido
             // 
             this.lblApellido.AutoSize = true;
-            this.lblApellido.Font = new System.Drawing.Font("MS Gothic", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblApellido.Location = new System.Drawing.Point(232, 190);
+            this.lblApellido.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblApellido.Location = new System.Drawing.Point(112, 205);
             this.lblApellido.Name = "lblApellido";
-            this.lblApellido.Size = new System.Drawing.Size(127, 23);
+            this.lblApellido.Size = new System.Drawing.Size(108, 29);
             this.lblApellido.TabIndex = 1;
             this.lblApellido.Text = "Apellido:";
             // 
             // lblTel
             // 
             this.lblTel.AutoSize = true;
-            this.lblTel.Font = new System.Drawing.Font("MS Gothic", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTel.Location = new System.Drawing.Point(232, 226);
+            this.lblTel.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTel.Location = new System.Drawing.Point(104, 273);
             this.lblTel.Name = "lblTel";
-            this.lblTel.Size = new System.Drawing.Size(127, 23);
+            this.lblTel.Size = new System.Drawing.Size(116, 29);
             this.lblTel.TabIndex = 1;
             this.lblTel.Text = "Teléfono:";
             // 
             // lblDirección
             // 
             this.lblDirección.AutoSize = true;
-            this.lblDirección.Font = new System.Drawing.Font("MS Gothic", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblDirección.Location = new System.Drawing.Point(219, 260);
+            this.lblDirección.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDirección.Location = new System.Drawing.Point(498, 129);
             this.lblDirección.Name = "lblDirección";
-            this.lblDirección.Size = new System.Drawing.Size(140, 23);
+            this.lblDirección.Size = new System.Drawing.Size(121, 29);
             this.lblDirección.TabIndex = 1;
             this.lblDirección.Text = "Dirección:";
             // 
             // lblGarantía
             // 
             this.lblGarantía.AutoSize = true;
-            this.lblGarantía.Font = new System.Drawing.Font("MS Gothic", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblGarantía.Location = new System.Drawing.Point(232, 297);
+            this.lblGarantía.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblGarantía.Location = new System.Drawing.Point(511, 205);
             this.lblGarantía.Name = "lblGarantía";
-            this.lblGarantía.Size = new System.Drawing.Size(127, 23);
+            this.lblGarantía.Size = new System.Drawing.Size(109, 29);
             this.lblGarantía.TabIndex = 1;
             this.lblGarantía.Text = "Garantía:";
             // 
             // lblCorreo
             // 
             this.lblCorreo.AutoSize = true;
-            this.lblCorreo.Font = new System.Drawing.Font("MS Gothic", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCorreo.Location = new System.Drawing.Point(258, 335);
+            this.lblCorreo.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCorreo.Location = new System.Drawing.Point(526, 273);
             this.lblCorreo.Name = "lblCorreo";
-            this.lblCorreo.Size = new System.Drawing.Size(101, 23);
+            this.lblCorreo.Size = new System.Drawing.Size(94, 29);
             this.lblCorreo.TabIndex = 1;
             this.lblCorreo.Text = "Correo:";
             // 
             // txtNombre
             // 
-            this.txtNombre.Location = new System.Drawing.Point(368, 158);
+            this.txtNombre.BackColor = System.Drawing.Color.White;
+            this.txtNombre.Location = new System.Drawing.Point(226, 140);
             this.txtNombre.Name = "txtNombre";
             this.txtNombre.Size = new System.Drawing.Size(191, 22);
             this.txtNombre.TabIndex = 2;
             // 
             // txtApellido
             // 
-            this.txtApellido.Location = new System.Drawing.Point(368, 191);
+            this.txtApellido.Location = new System.Drawing.Point(226, 212);
             this.txtApellido.Name = "txtApellido";
             this.txtApellido.Size = new System.Drawing.Size(191, 22);
             this.txtApellido.TabIndex = 2;
             // 
             // txtTel
             // 
-            this.txtTel.Location = new System.Drawing.Point(368, 230);
+            this.txtTel.Location = new System.Drawing.Point(226, 277);
             this.txtTel.Name = "txtTel";
             this.txtTel.Size = new System.Drawing.Size(191, 22);
             this.txtTel.TabIndex = 2;
             // 
             // txtDir
             // 
-            this.txtDir.Location = new System.Drawing.Point(368, 264);
+            this.txtDir.Location = new System.Drawing.Point(644, 129);
             this.txtDir.Name = "txtDir";
             this.txtDir.Size = new System.Drawing.Size(191, 22);
             this.txtDir.TabIndex = 2;
             // 
             // txtGarantía
             // 
-            this.txtGarantía.Location = new System.Drawing.Point(368, 301);
+            this.txtGarantía.Location = new System.Drawing.Point(644, 205);
             this.txtGarantía.Name = "txtGarantía";
             this.txtGarantía.Size = new System.Drawing.Size(191, 22);
             this.txtGarantía.TabIndex = 2;
             // 
             // txtCorreo
             // 
-            this.txtCorreo.Location = new System.Drawing.Point(368, 339);
+            this.txtCorreo.Location = new System.Drawing.Point(644, 277);
             this.txtCorreo.Name = "txtCorreo";
             this.txtCorreo.Size = new System.Drawing.Size(191, 22);
             this.txtCorreo.TabIndex = 2;
             // 
             // btnRegistrar
             // 
-            this.btnRegistrar.Font = new System.Drawing.Font("MS Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnRegistrar.Location = new System.Drawing.Point(368, 432);
+            this.btnRegistrar.BackColor = System.Drawing.Color.DimGray;
+            this.btnRegistrar.FlatAppearance.BorderSize = 0;
+            this.btnRegistrar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.btnRegistrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnRegistrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnRegistrar.ForeColor = System.Drawing.Color.White;
+            this.btnRegistrar.Location = new System.Drawing.Point(413, 428);
             this.btnRegistrar.Name = "btnRegistrar";
-            this.btnRegistrar.Size = new System.Drawing.Size(120, 47);
+            this.btnRegistrar.Size = new System.Drawing.Size(152, 54);
             this.btnRegistrar.TabIndex = 3;
             this.btnRegistrar.Text = "Registrar";
-            this.btnRegistrar.UseVisualStyleBackColor = true;
+            this.btnRegistrar.UseVisualStyleBackColor = false;
             this.btnRegistrar.Click += new System.EventHandler(this.btnRegistrar_Click);
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("MS Gothic", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(246, 372);
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(339, 352);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(114, 23);
+            this.label2.Size = new System.Drawing.Size(103, 29);
             this.label2.TabIndex = 1;
             this.label2.Text = "Salario:";
             // 
             // txtSalario
             // 
-            this.txtSalario.Location = new System.Drawing.Point(369, 376);
+            this.txtSalario.Location = new System.Drawing.Point(459, 352);
             this.txtSalario.Name = "txtSalario";
             this.txtSalario.Size = new System.Drawing.Size(191, 22);
             this.txtSalario.TabIndex = 2;
@@ -190,6 +197,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.Silver;
             this.ClientSize = new System.Drawing.Size(978, 518);
             this.Controls.Add(this.btnRegistrar);
             this.Controls.Add(this.txtSalario);

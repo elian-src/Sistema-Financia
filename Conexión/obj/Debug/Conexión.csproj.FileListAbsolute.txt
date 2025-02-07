@@ -4,3 +4,9 @@ C:\Users\elian\source\repos\ProyectoFinanzas\Conexión\obj\Debug\Conexión.cspro
 C:\Users\elian\source\repos\ProyectoFinanzas\Conexión\obj\Debug\Conexión.csproj.CoreCompileInputs.cache
 C:\Users\elian\source\repos\ProyectoFinanzas\Conexión\obj\Debug\Conexión.dll
 C:\Users\elian\source\repos\ProyectoFinanzas\Conexión\obj\Debug\Conexión.pdb
+C:\Users\ianro\Documents\informatica\Repositorios\Sistema-Financia\Conexión\bin\Debug\Conexión.dll
+C:\Users\ianro\Documents\informatica\Repositorios\Sistema-Financia\Conexión\bin\Debug\Conexión.pdb
+C:\Users\ianro\Documents\informatica\Repositorios\Sistema-Financia\Conexión\obj\Debug\Conexión.csproj.AssemblyReference.cache
+C:\Users\ianro\Documents\informatica\Repositorios\Sistema-Financia\Conexión\obj\Debug\Conexión.csproj.CoreCompileInputs.cache
+C:\Users\ianro\Documents\informatica\Repositorios\Sistema-Financia\Conexión\obj\Debug\Conexión.dll
+C:\Users\ianro\Documents\informatica\Repositorios\Sistema-Financia\Conexión\obj\Debug\Conexión.pdb
